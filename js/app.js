@@ -1,3 +1,8 @@
-for (let a = 10; a <= 20; a++) {
-  document.write("<p>" + a + "</p>");
+for (let number = 10; number <= 20; number++) {
+  if (number === 20) {
+    document.write(number);
+  } else {
+    document.write(number + ", ");
+  }
 }
+document.write("<br> <hr>");

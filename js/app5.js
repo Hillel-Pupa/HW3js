@@ -1,5 +1,5 @@
 let lastNumber = 1;
-for (let c = 15; c <= 35; c++) {
-  lastNumber = lastNumber * c;
+for (let number = 15; number <= 35; number++) {
+  lastNumber = lastNumber * number;
 }
-document.write(lastNumber);
+document.write(lastNumber + "<hr>");

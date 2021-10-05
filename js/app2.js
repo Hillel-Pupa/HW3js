@@ -1,3 +1,4 @@
-for (let b = 10; b <= 20; b++) {
-  document.write("<p>" + b * b + "</p>");
+for (let number = 10; number <= 20; number++) {
+  document.write(number ** 2 + " ");
 }
+document.write("<hr>");

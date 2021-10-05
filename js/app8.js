@@ -1,5 +1,6 @@
-for (let a = 100; a <= 200; a++) {
-  if (a % 3 === 0) {
-    document.write(a + ", ");
+for (let number = 100; number <= 200; number++) {
+  if (number % 3 === 0) {
+    document.write(number + ", ");
   }
 }
+document.write("<hr>");

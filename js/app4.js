@@ -1,5 +1,5 @@
 let lastDigit = 0;
-for (let c = 1; c <= 15; c++) {
-  lastDigit = lastDigit + c;
+for (let number = 1; number <= 15; number++) {
+  lastDigit = lastDigit + number;
 }
-document.write(lastDigit);
+document.write(lastDigit + "<hr>");

@@ -1,10 +1,10 @@
-let enterNumber = parseInt(prompt("enter your number", 0));
+let enterNumb = parseInt(prompt("enter your number", 0));
 let dividerCount = 0;
 let dividerSum = 0;
 document.write("dividers are ");
-for (let divider = 1; divider <= enterNumber / 2; divider++) {
-  if (enterNumber % divider === 0) {
-    if (divider === enterNumber / 2) {
+for (let divider = 1; divider <= enterNumb / 2; divider++) {
+  if (enterNumb % divider === 0) {
+    if (divider === enterNumb / 2) {
       document.write(divider);
     } else {
       document.write(divider + ", ");
