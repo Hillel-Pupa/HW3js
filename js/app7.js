@@ -1,5 +1,5 @@
-let lastDigit1 = 0;
+let multi = 0;
 for (let number = 30; number <= 80; number += 2) {
-  lastDigit1 = lastDigit1 + number;
+  multi = multi + number;
 }
-document.write(lastDigit1 + "<hr>");
+document.write(multi + "<hr>");

@@ -1,5 +1,5 @@
-let lastDigit = 0;
+let summ = 0;
 for (let number = 1; number <= 15; number++) {
-  lastDigit = lastDigit + number;
+  summ = summ + number;
 }
-document.write(lastDigit + "<hr>");
+document.write(summ + "<hr>");
